@@ -18,7 +18,7 @@ interface ServerStore {
 export const useServerStore = create<ServerStore>()(
   persist(
     (set) => ({
-      serverUrl: 'http://127.0.0.1:17493',
+      serverUrl: 'https://e3ae-141-148-223-247.ngrok-free.app',
       setServerUrl: (url) => set({ serverUrl: url }),
 
       isConnected: false,
